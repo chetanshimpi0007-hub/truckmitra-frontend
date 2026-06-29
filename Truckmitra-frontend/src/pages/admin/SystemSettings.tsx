@@ -124,7 +124,7 @@ const SystemSettings: React.FC = () => {
                    onChange={(e) => setSettings({...settings, companyAddress: e.target.value})}
                    rows={3}
                    className="w-full p-4 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:border-indigo-600 outline-none transition-all font-bold text-slate-700"
-                   placeholder="123 Logistics Park, Cyber City, Bangalore - 560001"
+                   placeholder="Nashik, Maharashtra - 422001, India"
                 />
               </div>
             </div>

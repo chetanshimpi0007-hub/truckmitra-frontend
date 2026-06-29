@@ -43,11 +43,9 @@ const Footer: React.FC = () => {
   ];
 
   const contactInfo = [
-    { icon: <FaPhone className="mt-1 flex-shrink-0" />, text: 'Mr. Chetan Shimpi: +91 9158011580' },
-    { icon: <FaPhone className="mt-1 flex-shrink-0" />, text: 'Mr. Rupesh Patil: +91 9975661172' },
-    { icon: <FaPhone className="mt-1 flex-shrink-0" />, text: 'Mr. Shubham Sankpal: +91 8767778028' },
-    { icon: <FaEnvelope className="mt-1 flex-shrink-0" />, text: 'support@truckmitra.com' },
-    { icon: <FaMapMarkerAlt className="mt-1 flex-shrink-0" />, text: 'Nashik, Maharashtra, India' },
+    { icon: <FaPhone className="mt-1 flex-shrink-0" />, text: <a href="tel:+919975661172" className="hover:text-white transition-colors">+91 9975661172</a> },
+    { icon: <FaEnvelope className="mt-1 flex-shrink-0" />, text: <a href="mailto:support@truckmitra.com" className="hover:text-white transition-colors">support@truckmitra.com</a> },
+    { icon: <FaMapMarkerAlt className="mt-1 flex-shrink-0" />, text: 'Nashik, Maharashtra - 422001, India' },
   ];
 
   const socialLinks = [

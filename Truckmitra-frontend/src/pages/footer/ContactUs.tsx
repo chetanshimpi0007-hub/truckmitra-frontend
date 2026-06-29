@@ -62,8 +62,8 @@ const ContactUs: React.FC = () => {
               <div>
                 <h3 className="text-lg font-bold text-gray-900">Phone Support</h3>
                 <p className="text-gray-600 mt-1">Mon-Fri from 9am to 6pm (IST).</p>
-                <a href="tel:+919876543210" className="text-blue-600 font-medium hover:underline mt-2 inline-block">
-                  +91 98765 43210
+                <a href="tel:+919975661172" className="text-blue-600 font-medium hover:underline mt-2 inline-block">
+                  +91 9975661172
                 </a>
               </div>
             </div>
@@ -75,10 +75,7 @@ const ContactUs: React.FC = () => {
               <div>
                 <h3 className="text-lg font-bold text-gray-900">Office Address</h3>
                 <p className="text-gray-600 mt-1">
-                  TruckMitra Headquarters<br />
-                  123 Logistics Park, Sector 4<br />
-                  Gurgaon, Haryana 122001<br />
-                  India
+                  Nashik, Maharashtra - 422001, India
                 </p>
               </div>
             </div>
